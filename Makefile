@@ -37,8 +37,8 @@ docker-shell:
 
 docker-push:
 	docker login
-	docker build -t $(account)/spring-gumball:v2 -t $(account)/spring-gumball:v2 .
-	docker push $(account)/spring-gumball:v2 
+	docker build -t farzin585/spring-gumball:v2 -t farzin585/spring-gumball:v2 .
+	docker push farzin585/spring-gumball:v2 
 
 # Compose
 
